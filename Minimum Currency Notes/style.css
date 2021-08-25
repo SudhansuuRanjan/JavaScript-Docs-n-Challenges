@@ -1,0 +1,63 @@
+*{
+    font-family: poppins;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(178deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(19, 69, 143) 100%);
+    background-repeat: no-repeat;
+    height: 45rem;
+}
+h1{
+    margin-top: 3rem;
+}
+input{
+    color: rgb(63, 63, 63);
+    font-size: 1.2rem;
+    height: 2.5rem;
+    width:20rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    outline-offset: 0vh;
+    outline-width: 2px;
+    text-align: right;
+    outline-color: rgb(105, 208, 255);
+}
+button{
+    height: 2.5rem;
+    width:14rem;
+    border-radius:0.5rem ;
+    color: rgb(255, 255, 255);
+    border: none;
+    border: 1px indigo;
+    background-color: rgb(20, 192, 77);
+    margin-bottom: 2rem;
+    cursor:pointer;
+    font-size: 0.9rem;
+}
+button:hover{
+  box-shadow: 1px 2px 6px 0 rgb(16, 18, 43);
+  padding: 2px;
+}
+button:focus{
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+    font-size: 0.9rem;
+}
+.fa-lg{
+    color: grey;
+    position: relative;
+    left: -19.5rem;
+}
+ul{
+    list-style-type: none;
+}
+.foot{
+    margin: auto;
+    text-align: center;
+}
