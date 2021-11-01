@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+*{  
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    color:azure;
+}
+body{
+    background:linear-gradient(0deg, rgba(66, 12, 44, 0.3), rgba(255, 0, 153, 0.3)), url('1708.jpg') no-repeat;
+    background-size: cover;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.people , .resultant , .head{
+    text-align: center;
+}
+.head{
+    font-size: 3.2rem;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    text-shadow: 3px 3px pink;
+}
+.in , .out{
+     margin: 2.5rem 3rem;
+     padding: 1.5rem 4.5rem;
+     border-radius: 0.8rem;
+     background-color: rgba(255, 255, 255, 0.4);
+     text-shadow: 2px 2px purple;
+}
+.people , .resultant{
+    display: inline-block;
+     padding: 1.5rem 4.5rem;
+     border-radius: 0.8rem;
+     background-color: rgba(119, 16, 59, 0.5);
+     border: 1px solid white;
+     text-shadow: 2px 2px red;
+}
+.in-out{
+    display : flex;
+    text-align: center;
+    align-self: center;
+}
+.in-out-btn{
+    text-align: center;
+}
+.btn{
+  margin: 3rem 2rem;
+  padding: 0.8rem 3.5rem ;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  box-shadow: 2px 2px 10px 1px rgb(39, 26, 26);
+  cursor: pointer;
+}
+.in-btn{
+    background-color:rgb(0, 223, 0);
+    color: white;
+}
+.out-btn{
+    background-color:rgb(255, 58, 58);
+    color: white;
+}
+.in-btn:active{
+    background-color: green; 
+}
+.out-btn:active{
+    background-color: red; 
+}
+.cover{
+    display: flex;
+    justify-content: center;
+}
+.reset-btn{
+    background-color: violet;
+}
