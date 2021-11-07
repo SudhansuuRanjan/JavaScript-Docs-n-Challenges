@@ -49,7 +49,7 @@ section{
    font-size: 1.5rem;
 }
 .coverb{
-    margin: 2rem 5rem;
+    margin: 2rem 9rem;
     height: 4rem;
     width:5rem;
 }
@@ -129,7 +129,7 @@ section{
 }
 .msgtxt{
   background-color: rgb(253, 225, 171);
-  padding: 0.3rem 9rem;
+  padding: 0.3rem 7rem;
   border-radius: 0.5rem;
   border:1px solid orange;
   color:rgb(110, 72, 0);
@@ -165,7 +165,72 @@ section{
     border-radius: 0.3rem;
     margin-top: 2rem;
     cursor:pointer;
+    margin-bottom: 3rem;
 }
 .replay:active{
    background-color: rgb(255, 217, 146); 
+}
+@media (min-width:800px) {
+  .links{
+  margin: 1rem 0;
+  display: flex;
+  justify-content:space-evenly;
+}
+h2{
+    font-size: 1.3rem;
+    color: rgb(255, 0, 119);
+    text-shadow: 1.5px  1.5px rgb(255, 173, 211);
+}
+}
+@media (max-width:800px) {
+  .msgtxt{
+  background-color: rgb(253, 225, 171);
+  padding: 0.3rem 2rem;
+  border:1px solid orange;
+  color:rgb(110, 72, 0);
+}
+.coverb{
+    margin: 2rem 3rem;
+    height: 4rem;
+    width:5rem;
+}
+.head{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+    margin-top:1.5rem;
+}
+.btn{
+    height: 6rem;
+    width:5.8rem;
+    margin:0.4rem;
+    margin-bottom: 0.4rem;
+    border-radius: 0.4rem;
+    border : 2px solid rgb(156, 156, 255);
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+.container{
+    margin-top: 3rem;
+    background-color: aliceblue;
+    width: 21rem;
+    align-self: center;
+    border: 2px solid rgb(192, 192, 204);
+    border-radius: 1rem;
+    padding: 0.3rem 0 0.3rem 0.3rem;
+    display:flex;
+    flex-wrap: wrap;
+}
+.grid{
+    padding-top: 0.8rem;
+    font-size: 3rem;
+}
+.links{
+  display: flex;
+  justify-content:space-evenly;
+}
+h2{
+    font-size: 1.3rem;
+    color: rgb(255, 0, 119);
+    text-shadow: 1.5px  1.5px rgb(255, 173, 211);
+}
 }

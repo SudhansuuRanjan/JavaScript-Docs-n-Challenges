@@ -4,10 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <title>Tac-Tac-Toe</title>
     <link rel="stylesheet" href="tic-tac-toe.css">
 </head>
 <body>
+<audio id="start">
+  <source src="start.mp3" type="audio/mpeg">
+</audio>
+<audio id="tapp">
+  <source src="tapp.mp3" type="audio/mpeg">
+</audio>
+<audio id="game-end">
+  <source src="game-end.mp3" type="audio/mpeg">
+</audio>
+<audio id="final-win">
+  <source src="final_win.mp3" type="audio/mpeg">
+</audio>
     <section>
         <h1 class="head">Tic-Tac-Toe</h1>
         <div class="results">
@@ -38,10 +51,15 @@
         </div>
 
         <div class="players">
-            <div class="coverb"><div class="player1 player animate1">P1</div></div>
-            <div class="coverb"><div class="player2 player">P2</div></div>
-            <button class="replay none">Replay</button>
+            <div class="coverb c1"><div class="player1 player animate1">P1</div></div>
+            <div class="coverb c2"><div class="player2 player">P2</div></div>
+            <button class="replay none" onclick="Replay()">Replay</button>
         </div>
+        <div class="links">
+            <a href="https://github.com/SudhansuuRanjan"><h2>GitHub</h2></a>
+            <a href="https://Twitter.com/Sudhanss_u"><h2>Twitter</h2></a>
+        </div>
+        <h2> <i class="fas fa-code"></i> Made by Sudhanshu with 💖. <i class="fas fa-code"></i></h2>
     </section>
     <script src="tic-tac-toe.js"></script>
 </body>
